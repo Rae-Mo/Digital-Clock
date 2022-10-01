@@ -1,0 +1,35 @@
+*{font-family:sans-serif;}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: aliceblue;
+}
+.wrapper{
+    min-width: 28rem;
+    border-radius: 20px;
+    background: #111827;
+    background-image:
+        radial-gradient(at 47% 33%, #17b585 0, transparent 59%),
+        radial-gradient(at 82% 65%, #111927 0, transparent 55%);
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 80px;
+    backdrop-filter: blur(16px) saturate(120%);
+    -webkit-backdrop-filter:  blur(16px) saturate(120%);
+    background-color: rgba(17, 25, 40, 0.692);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+}
+.clock h1{font-weight: 500;}
+.clockface{
+    font-size: 30px;
+    font-weight: bold;
+}
